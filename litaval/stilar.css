@@ -10,14 +10,13 @@ body {
   	margin: 0;
   	padding: 0;
   
-	display: flex; 
+	display: none; 
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 }
-.sumar h1 {
-	font-size: 5em;
-	color: #ffa;
+.sumar{
+	display:none;
 }
 .haust {
 	display: none;
@@ -25,7 +24,16 @@ body {
 .vor {
 	display: none;
 }
-.vetur {
-	display: none;
+.vetur{
+	font-size: 5em;
+	background:linear-gradient(top top left, dodgerblue, white);
+	position:fixed;
+	text-align: center;
+	height:100%;
+	width:100%;
+	display:flex;
 }
-
+.vetur h1{
+	font-size: 5em;
+	color:white;
+	text-shadow: 1px 1px black;

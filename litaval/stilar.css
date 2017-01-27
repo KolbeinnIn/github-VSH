@@ -24,14 +24,16 @@ body {
 .vor {
 	display: none;
 }
-.vetur{
-	font-size: 5em;
-	background:linear-gradient(top top left, dodgerblue, white);
+.vetur {
+	background:linear-gradient(to top left, dodgerblue, white);
 	position:fixed;
 	text-align: center;
 	height:100%;
 	width:100%;
 	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:0;
 }
 .vetur h1{
 	font-size: 5em;
